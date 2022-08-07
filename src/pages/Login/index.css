@@ -1,0 +1,16 @@
+#form{
+    margin:auto;
+    position:relative;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#go{
+    margin-left:260px;
+    width:100px;
+    margin-right: 100px;
+}
+h2{
+    padding-top: 80px;
+    margin-left:580px;
+    color: #3089ee;
+}

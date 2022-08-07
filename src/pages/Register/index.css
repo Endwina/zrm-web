@@ -1,0 +1,16 @@
+#form{
+    margin:auto;
+    position:relative;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+#btn{
+    margin-left: 260px;
+    width:350px;
+}
+h1{
+    position: relative;
+    margin-left: 570px;
+    padding-top: 60px;
+    color: #3089ee;
+}
