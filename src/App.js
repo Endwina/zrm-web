@@ -1,11 +1,9 @@
 import React,{Suspense,lazy} from 'react'
-import "./asset/base.css"
-import { Button } from 'antd'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import "./pages/asset/base.css"
 
 const Login = lazy(() => import('./pages/Login'))
-const Register = lazy(() => import('./pages/Register'))
+const Register = lazy(() => import('./pages/register'))
 
 function App(){
         return(

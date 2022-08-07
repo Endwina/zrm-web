@@ -1,19 +1,11 @@
-import ReactDom from 'react-dom';
-import App from './App'
-import { ApolloClient } from 'apollo-boost';
-import {  ApolloProvider } from 'react-apollo';
-// 默认情况下，该客户端将发送查询同个域名下的
-// `/graphql` 路径
-const client = new ApolloClient({
-    uri:'http://localhost:4000/graphql',
-})
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
 
 
-
-ReactDom.render(
-    <ApolloProvider client={client}>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
     <App />
-    </ApolloProvider>,
-    document.getElementById('root')
-)
+);
 
